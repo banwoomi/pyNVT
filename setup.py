@@ -9,11 +9,11 @@ import re, io
 
 __version__ = re.search(
     r'__version__\s*=\s*[\'"]([^\'"]*)[\'"]',
-    io.open('pynipt/__init__.py', encoding='utf_8_sig').read()
+    io.open('pynvt/__init__.py', encoding='utf_8_sig').read()
     ).group(1)
 
 __author__ = 'Woomi Ban'
-__email__ = 'banwoomi@unc.edu'
+__email__ = 'banwoomi@email.unc.edu'
 
 setup(name='pyNVT',
       version=__version__,
@@ -47,6 +47,6 @@ setup(name='pyNVT',
             'Programming Language :: Python :: 2.7',
             'Programming Language :: Python :: 3.7',
       ],
-      keywords = 'Python NeuroImaging Pipeline Tools'
+      keywords = 'Python NeuroImaging Visualization Tool'
 
      )
