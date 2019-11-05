@@ -137,7 +137,7 @@ class pyNVTBase:
     def processing_data_flip(self, data, bool_swap):
 
         if data is None:
-            print "[processing_data_flip] is None."
+            print ("[processing_data_flip] is None.")
             return data
 
         if self.sform_code == 3:
